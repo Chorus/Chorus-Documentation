@@ -1,5 +1,5 @@
 ---
-id: remitsHome
+id: RemitsMain
 title: Remits
 ---
 

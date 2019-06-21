@@ -1,6 +1,6 @@
 {
   "docs": {
-    "Chours Cloud": ["mainpage"],
-    "Remits": ["remitsHome"]
+    "Chours Cloud": ["ChorusCloudOverview"],
+    "Remits": ["RemitsMain"]
   }
 }
