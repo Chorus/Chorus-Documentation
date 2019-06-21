@@ -1,6 +1,7 @@
 {
   "docs": {
     "Chours Cloud": ["ChorusCloudOverview"],
-    "Remits": ["RemitsMain"]
+    "Remits": ["RemitsMain"],
+    "Eligibility": ["EligibilityMain"]
   }
 }
