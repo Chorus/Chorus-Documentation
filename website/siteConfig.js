@@ -23,12 +23,12 @@ const users = [
 const siteConfig = {
   title: 'Chorus Documentation', // Title for your website.
   tagline: 'Chorus Documentation',
-  url: 'https://chorus.github.io', // Your website URL
+  url: 'https://yygold.github.io', // Your website URL
   baseUrl: '/Chorus-Documentation/',
 
   // Used for publishing and more
   projectName: 'Chorus-Documentation',
-  organizationName: 'chorus',
+  organizationName: 'yygold',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
