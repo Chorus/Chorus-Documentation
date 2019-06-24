@@ -52,17 +52,16 @@ class Footer extends React.Component {
             <a href={this.pageUrl('users.html', this.props.language)}>
               User Showcase
             </a>
-            <a
+            {/* <a
               href="https://stackoverflow.com/questions/tagged/"
               target="_blank"
               rel="noreferrer noopener">
               Stack Overflow
-            </a>
-            <a href="https://discordapp.com/">Project Chat</a>
+            </a> */}
+            {/* <a href="https://discordapp.com/">Project Chat</a> */}
             <a
-              href="https://twitter.com/"
-              target="_blank"
-              rel="noreferrer noopener">
+              href="https://twitter.com/ChorusCloud"
+              target="_blank">
               Twitter
             </a>
           </div>

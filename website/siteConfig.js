@@ -11,11 +11,11 @@
 // List of projects/orgs using your project for the users page.
 const users = [
   {
-    caption: 'User1',
+    caption: 'Encore Licensed Behavior Analyst',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: '/img/undraw_open_source.svg',
-    infoLink: 'https://www.facebook.com',
+    image: '/img/EncoreLogo.svg',
+    infoLink: 'http://encoresupport.org/',
     pinned: true,
   },
 ];
@@ -36,21 +36,21 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'ChorusCloudOverview', label: 'Docs'},
-    {search: true}
+    { blog: true, label: 'Blog' }
   ],
 
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
-  favicon: 'img/favicon.ico',
+  headerIcon: 'img/ChorusWhite.png',
+  footerIcon: 'img/ChorusSquare.png',
+  favicon: 'img/ChorusSquare.png',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#45752b',
-    secondaryColor: '#30511e',
+    primaryColor: '#6F32A0',
+    secondaryColor: '#00CDF1',
   },
 
   /* Custom fonts for website */
@@ -85,7 +85,7 @@ const siteConfig = {
 
   // Open Graph and Twitter card images.
   ogImage: 'img/undraw_online.svg',
-  twitterImage: 'img/undraw_tweetstorm.svg',
+  //twitterImage: 'img/undraw_tweetstorm.svg',
 
   // Show documentation's last contributor's name.
   // enableUpdateBy: true,
