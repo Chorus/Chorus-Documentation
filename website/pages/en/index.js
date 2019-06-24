@@ -149,16 +149,22 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'This is the content of my feature',
-            image: `${baseUrl}img/undraw_react.svg`,
+            content: 'Platform agnostic, Chorus plays nice with virtually all existing software, even with limited API availability. And intrinsic modularity enables 10x faster deployment, low-code integration and configuration, and endless scalability/extensibility. ',
+            image: `${baseUrl}img/undraw_personalization_triu.svg`,
             imageAlign: 'top',
-            title: 'Feature One',
+            title: 'Made With You In Mind',
           },
           {
-            content: 'The content of my second feature',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
+            content: 'By healthcare professionals, for healthcare professionals. We understand both internal and external requirements, applying cutting-edge, enterprise-grade features like cloud-native design, granular security roles, and our proactive Validation Oracle™—all within strict HIPAA compliance.',
+            image: `${baseUrl}img/undraw_experience_design_eq3j.svg`,
             imageAlign: 'top',
-            title: 'Feature Two',
+            title: 'Built to the latest, highest standards',
+          },
+          {
+            content: 'Deeply ingrained, systemwide AI helps you get a new grip on patient information, staff performance, business processes and other metrics that help you scale up, unleash revenue, and maximize manpower.',
+            image: `${baseUrl}img/undraw_predictive_analytics_kf9n.svg`,
+            imageAlign: 'top',
+            title: 'Designed for growth hacking',
           },
         ]}
       </Block>
