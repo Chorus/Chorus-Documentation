@@ -15,8 +15,8 @@ const GridBlock = CompLibrary.GridBlock;
 
 class HomeSplash extends React.Component {
   render() {
-    const {siteConfig, language = ''} = this.props;
-    const {baseUrl, docsUrl} = siteConfig;
+    const { siteConfig, language = '' } = this.props;
+    const { baseUrl, docsUrl } = siteConfig;
     const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
     const langPart = `${language ? `${language}/` : ''}`;
     const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
@@ -63,11 +63,11 @@ class HomeSplash extends React.Component {
         <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
-          <PromoSection>
-            <Button href="#try">Try It Out</Button>
+          {/* <PromoSection>
+            <Button href="http://chorus.nyc">Chorus.Cloud</Button>
             <Button href={docUrl('doc1.html')}>Example Link</Button>
             <Button href={docUrl('doc2.html')}>Example Link 2</Button>
-          </PromoSection>
+          </PromoSection> */}
         </div>
       </SplashContainer>
     );
@@ -76,8 +76,8 @@ class HomeSplash extends React.Component {
 
 class Index extends React.Component {
   render() {
-    const {config: siteConfig, language = ''} = this.props;
-    const {baseUrl} = siteConfig;
+    const { config: siteConfig, language = '' } = this.props;
+    const { baseUrl } = siteConfig;
 
     const Block = props => (
       <Container
@@ -95,7 +95,7 @@ class Index extends React.Component {
     const FeatureCallout = () => (
       <div
         className="productShowcaseSection paddingBottom"
-        style={{textAlign: 'center'}}>
+        style={{ textAlign: 'center' }}>
         <h2>Feature Callout</h2>
         <MarkdownBlock>These are features of this project</MarkdownBlock>
       </div>
@@ -106,26 +106,24 @@ class Index extends React.Component {
         {[
           {
             content:
-              'To make your landing page more attractive, use illustrations! Check out ' +
-              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
-              'The illustrations you see on this page are from unDraw.',
-            image: `${baseUrl}img/undraw_code_review.svg`,
+              'Platform agnostic, Chorus plays nice with virtually all existing software, even with limited API availability. And intrinsic modularity enables 10x faster deployment, low-code integration and configuration, and endless scalability/extensibility.',
+            image: `${baseUrl}img/undraw_personalization_triu.svg`,
             imageAlign: 'left',
-            title: 'Wonderful SVG Illustrations',
+            title: 'Made With You In Mind',
           },
         ]}
       </Block>
     );
 
     const Description = () => (
-      <Block background="dark">
+      <Block background="light">
         {[
           {
             content:
-              'This is another description of how this project is useful',
-            image: `${baseUrl}img/undraw_note_list.svg`,
+              'By healthcare professionals, for healthcare professionals. We understand both internal and external requirements, applying cutting-edge, enterprise-grade features like cloud-native design, granular security roles, and our proactive Validation Oracle™—all within strict HIPAA compliance.',
+            image: `${baseUrl}img/undraw_experience_design_eq3j.svg`,
             imageAlign: 'right',
-            title: 'Description',
+            title: 'Built to the latest, highest standards',
           },
         ]}
       </Block>
@@ -136,10 +134,10 @@ class Index extends React.Component {
         {[
           {
             content:
-              'Each new Docusaurus project has **randomly-generated** theme colors.',
-            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
+              'Deeply ingrained, systemwide AI helps you get a new grip on patient information, staff performance, business processes and other metrics that help you scale up, unleash revenue, and maximize manpower.',
+            image: `${baseUrl}img/undraw_predictive_analytics_kf9n.svg`,
             imageAlign: 'right',
-            title: 'Randomly Generated Theme Colors',
+            title: 'Designed for growth hacking',
           },
         ]}
       </Block>
@@ -149,7 +147,7 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'Platform agnostic, Chorus plays nice with virtually all existing software, even with limited API availability. And intrinsic modularity enables 10x faster deployment, low-code integration and configuration, and endless scalability/extensibility. ',
+            content: 'Platform agnostic, Chorus plays nice with virtually all existing software, even with limited API availability. And intrinsic modularity enables 10x faster deployment, low-code integration and configuration, and endless scalability/extensibility.',
             image: `${baseUrl}img/undraw_personalization_triu.svg`,
             imageAlign: 'top',
             title: 'Made With You In Mind',
@@ -203,8 +201,8 @@ class Index extends React.Component {
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
-          <Features />
-          <FeatureCallout />
+          {/* <Features /> */}
+          {/* <FeatureCallout /> */}
           <LearnHow />
           <TryOut />
           <Description />
