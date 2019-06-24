@@ -35,7 +35,8 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'ChorusCloudOverview', label: 'Docs'}
+    {doc: 'ChorusCloudOverview', label: 'Docs'},
+    {search: true}
   ],
 
   // If you have users set above, you add it here:
@@ -95,6 +96,8 @@ const siteConfig = {
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   //   repoUrl: 'https://github.com/facebook/test-site',
+
+  gaTrackingId: 'UA-142505503-1',
 };
 
 module.exports = siteConfig;
