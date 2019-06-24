@@ -35,7 +35,7 @@ class Footer extends React.Component {
               />
             )}
           </a>
-          <div>
+          {/* <div>
             <h5>Docs</h5>
             <a href={this.docUrl('doc1.html', this.props.language)}>
               Getting Started (or other categories)
@@ -46,12 +46,13 @@ class Footer extends React.Component {
             <a href={this.docUrl('doc3.html', this.props.language)}>
               API Reference (or other categories)
             </a>
-          </div>
+          </div> */}
           <div>
             <h5>Community</h5>
             <a href={this.pageUrl('users.html', this.props.language)}>
               User Showcase
             </a>
+            <a href="https://github.com/Chorus/Chorus-Documentation/issues">GitHub Issues</a>
             {/* <a
               href="https://stackoverflow.com/questions/tagged/"
               target="_blank"
@@ -69,6 +70,7 @@ class Footer extends React.Component {
             <h5>More</h5>
             <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
             <a href="https://github.com/Chorus">GitHub</a>
+            <a href="https://www.linkedin.com/company/chorus-software-solutions/about/">linkedin</a>
             <a href={this.docUrl('LegalDocs/PrivacyPolicy.html')}>
               Privacy Policy
             </a>
