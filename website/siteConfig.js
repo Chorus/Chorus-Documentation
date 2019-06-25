@@ -14,7 +14,7 @@ const users = [
     caption: 'Encore Licensed Behavior Analyst',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: siteConfig.baseUrl + '/img/EncoreLogo.svg',
+    image: '/img/EncoreLogo.svg',
     infoLink: 'http://encoresupport.org/',
     pinned: true,
   },
