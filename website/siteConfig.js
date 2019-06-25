@@ -23,8 +23,8 @@ const users = [
 const siteConfig = {
   title: 'Chorus Documentation', // Title for your website.
   tagline: 'Chorus Documentation',
-  url: 'https://docs.chorus.cloud/', // Your website URL
-  baseUrl: 'ChorusCloudOverview/',
+  url: 'https://docs.chorus.cloud', // Your website URL
+  baseUrl: '/',
 
   // Used for publishing and more
   projectName: 'Chorus-Documentation',
