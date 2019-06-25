@@ -29,4 +29,6 @@ workflows:
   build_and_deploy:
     jobs:
       - deploy-website
-         filters: master
+         filters: 
+          branches:
+            only: master
