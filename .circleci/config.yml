@@ -28,5 +28,7 @@ workflows:
   version: 2
   build_and_deploy:
     jobs:
-      - deploy-website
-#         filters: filter-only-master
+      - deploy-website:
+         filters: 
+          branches:
+            only: master
