@@ -98,6 +98,7 @@ const siteConfig = {
      repoUrl: 'https://github.com/Chorus/Chorus-Documentation',
 
   gaTrackingId: 'UA-142505503-1',
+  cname: 'docs.chorus.cloud'
 };
 
 module.exports = siteConfig;
