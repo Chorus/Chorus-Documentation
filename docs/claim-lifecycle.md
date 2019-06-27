@@ -1,6 +1,7 @@
 ---
 id: ClaimLifecycle
-title: Claim Lifecycle
+title: The Claim Lifecycle
+hide_title
 ---
 
 # **The Claim Lifecycle**

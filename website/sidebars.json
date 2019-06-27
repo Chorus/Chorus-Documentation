@@ -1,7 +1,50 @@
 {
   "docs": {
     "Chours Cloud": ["ChorusCloudOverview"],
-    "Remits": ["RemitsOverview","GettingStarted","ClaimLifecycle","RemittanceAdvices","Claims","DenialManagement","PatientInvoicing"],
+    "Remits": [
+      "RemitsOverview",
+      {
+        "type": "subcategory",
+        "label": "Getting Started",
+        "ids": [
+          "Installation",
+          "Connection",
+          "Configuration",
+          "ClaimLifecycle"
+        ]        
+      },
+      {
+        "type":"subcategory",
+        "label": "Remittance Advices",
+        "ids": [
+          "RemittanceAdviceOverview",
+          "InputRemits",
+          "ViewRemits",
+          "PaymentReports"
+        ]
+      },
+      {
+        "type":"subcategory",
+        "label": "Claims",
+        "ids": [
+          "ClaimOverview",
+          "InputClaims",
+          "ViewRemits",
+          "PaymentReports"
+        ]
+      },
+      {
+        "type":"subcategory",
+        "label": "Denial Management",
+        "ids": [
+          "CaseSystemOverview",
+          "WorkQueues",
+          "FollowUpActivity",
+          "CaseAutomation",
+          "DenialManagementReports"
+        ]
+      }
+    ],
     "Eligibility": ["EligibilityMain"]
   }
 }

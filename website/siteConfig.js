@@ -87,6 +87,9 @@ const siteConfig = {
   ogImage: 'img/undraw_online.svg',
   //twitterImage: 'img/undraw_tweetstorm.svg',
 
+  // The option to expand/collapse the links and subcategories under categories.
+  docsSideNavCollapsible: true,
+
   // Show documentation's last contributor's name.
   // enableUpdateBy: true,
 

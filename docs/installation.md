@@ -1,6 +1,7 @@
 ---
 id: Installation
-title: Installation
+title: Remits Installation
+hide_title
 ---
 
 # **Installing Remits**

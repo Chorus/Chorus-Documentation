@@ -1,6 +1,7 @@
 ---
 id: Configuration
-title: Configuration
+title: Remits Configuration
+hide_title
 ---
 
 # **Configuring Remits**

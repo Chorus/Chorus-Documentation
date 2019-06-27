@@ -1,6 +1,7 @@
 ---
 id: RemitsOverview
 title: Remits Overview
+hide_title
 ---
 
 # **Overview**
