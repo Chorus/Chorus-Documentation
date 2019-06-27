@@ -1,7 +1,7 @@
 {
   "docs": {
     "Chours Cloud": ["ChorusCloudOverview"],
-    "Remits": ["RemitsMain"],
+    "Remits": ["RemitsOverview","GettingStarted","ClaimLifecycle","RemittanceAdvices","Claims","DenialManagement","PatientInvoicing"],
     "Eligibility": ["EligibilityMain"]
   }
 }
