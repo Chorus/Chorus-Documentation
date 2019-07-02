@@ -21,7 +21,8 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Chorus Documentation', // Title for your website.
+  title: '', // Title for your website.
+  projectTitle: 'Chorus Documentation',
   tagline: 'Chorus Documentation',
   url: 'https://docs.chorus.cloud', // Your website URL
   baseUrl: '/',
@@ -35,8 +36,13 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
+    {page: 'index', label: 'Home'},
+    {page: 'modules', label: 'Modules'},
+    {page: 'compositions', label: 'Compositions'},
+    {page: 'initiatives', label: 'Initiatives'},
     {doc: 'ChorusCloudOverview', label: 'Docs'},
-    { blog: true, label: 'Blog' }
+    {page: 'about', label: 'About'},
+    {page: 'contact', label: 'Contact'}
   ],
 
   // If you have users set above, you add it here:
@@ -49,7 +55,7 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#6F32A0',
+    primaryColor: '#6F3999',
     secondaryColor: '#00CDF1',
   },
 
