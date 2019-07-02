@@ -17,7 +17,7 @@
         "type":"subcategory",
         "label": "Remittance Advices",
         "ids": [
-          "RemittanceAdviceOverview",
+          "RemitsOverview",
           "InputRemits",
           "ViewRemits",
           "PaymentReports"
