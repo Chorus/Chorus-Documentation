@@ -1,6 +1,7 @@
 ---
 id: EligibilityMain
 title: Eligibility
+hide_title
 ---
 
 # Eligibility

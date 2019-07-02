@@ -1,6 +1,7 @@
 ---
 id: InputRemits
 title: Inputting Remits
+hide_title
 ---
 
 # **Inputting Remits**

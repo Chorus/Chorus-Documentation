@@ -1,6 +1,7 @@
 ---
 id: Connection
-title: Connection
+title: Clearinghouse Connectivity
+hide_title
 ---
 
 # **Connecting to your clearinghouse**

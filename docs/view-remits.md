@@ -1,6 +1,7 @@
 ---
-id: ViewingRemits
+id: ViewRemits
 title: Viewing Remits
+hide_title
 ---
 
 # **Viewing Remits**
