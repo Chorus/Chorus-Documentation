@@ -17,7 +17,7 @@
         "type":"subcategory",
         "label": "Remittance Advices",
         "ids": [
-          "RemitsOverview",
+          "RemittanceAdviceOverview",
           "InputRemits",
           "ViewRemits",
           "PaymentReports"
@@ -28,9 +28,9 @@
         "label": "Claims",
         "ids": [
           "ClaimOverview",
-          "InputClaims",
-          "ViewRemits",
-          "PaymentReports"
+          "InputClaim",
+          "ViewClaim",
+          "ClaimReports"
         ]
       },
       {
