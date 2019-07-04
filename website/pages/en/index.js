@@ -33,11 +33,23 @@ class Index extends React.Component {
 
     const Card = props => (
       <div className="card">
-        <div className="content">
-          <h1>{props.title}</h1>
-          <p>{props.description}</p>
+        <div className="card-content">
+          <img className="card-icon" src={`${baseUrl}img/${props.icon}`}></img>
+          <p className="header-text-secondary">{props.title}</p>
+          <p className="card-description">{props.description}</p>
         </div>
         <div className="ribbon" style={{background: props.ribbonColor}}/>
+      </div>
+    );
+
+    const Header = () => (
+      <img style={{position: "fixed", zIndex: '1'}} src={`${baseUrl}img/header-gradient.svg`}></img>
+    );
+
+    const Background = () => (
+      <div>
+        <img style={{position: "relative"}} src={`${baseUrl}img/home-page-gradient.svg`}></img>
+        <img style={{width: '750px;', position: "absolute", top:'175px;', right:'115px;', bottom:'-20'}} src={`${baseUrl}img/home-page-header-chart.svg`}></img>
       </div>
     );
 
@@ -52,14 +64,16 @@ class Index extends React.Component {
 
     const Innovations = () => (
       <div className="innovations-wrapper">
+        <p className="text-centered header-text text-color-purple">Each, an innovation</p>
+        <p className="text-centered">Together a breakthrough</p>
+        
         <div className="innovations-grid">
-          <Card ribbonColor="#601d96" title="Eligibility" description="Intelligent, automated conveyor belt for patient-eligibility and insurance verification, eliminating dozens of manual steps and reducing denials"></Card>
-          <Card ribbonColor="#48f542" title="Remits" description="Unlocks remittance data to provide business intelligence and analytics + auto-cretaes and rouotes tasks and queues with very little configuration needed"></Card>
-          <Card ribbonColor="#4287f5" title="Patient Pay" description="Hi tech patient-centered payment environment automatically calculates and updats patient responsibility - in addition to full paper billing services"></Card>
-          <Card ribbonColor="#de0b19" title="Claims" description="Hi tech patient-centered payment environment automatically calculates and updats patient responsibility - in addition to full paper billing services"></Card>
+          <Card ribbonColor="#601d96" title="Eligibility" description="Intelligent, automated conveyor belt for patient-eligibility and insurance verification, eliminating dozens of manual steps and reducing denials" icon="eligibility-icon.svg"></Card>
+          <Card ribbonColor="#48f542" title="Remits" description="Unlocks remittance data to provide business intelligence and analytics + auto-cretaes and rouotes tasks and queues with very little configuration needed" icon="remits-icon.svg"></Card>
+          <Card ribbonColor="#4287f5" title="Patient Pay" description="Hi tech patient-centered payment environment automatically calculates and updats patient responsibility - in addition to full paper billing services" icon="patient-pay-icon.svg"></Card>
+          <Card ribbonColor="#de0b19" title="Claims" description="Hi tech patient-centered payment environment automatically calculates and updats patient responsibility - in addition to full paper billing services" icon="claims-icon.svg"></Card>
         </div>
       </div>
-      
     );
 
     const TryOut = () => (
@@ -74,6 +88,17 @@ class Index extends React.Component {
           },
         ]}
       </Block>
+    );
+
+
+    var imageSource = `${baseUrl}img/shutterstock_type-by-computer.jpg`;
+
+    const Experience = () => (
+        <div className="experience-grid">
+        <img className="col-1 exp-img" src={imageSource}></img>
+        <p className="col-2 row-1 header-text">Practice made perfect</p>
+        <p className="col-2 row-2">In a world gone digital, the healthcare enterprice is one of the slowest adopters. To remedy that, Chorus leverages years of firsthand experience with behavioral health servicing to develop modern technologies that automate business processes and promote quality, reimbursable care</p>
+      </div>
     );
 
     const Description = () => (
@@ -161,13 +186,11 @@ class Index extends React.Component {
     return (
       <div>
         <div className="mainContainer">
-          {/* <Features /> */}
-          {/* <FeatureCallout /> */}
-          <LearnHow />
-          <TryOut />
+          <Header/>
+          <Background/>
+          <Experience/>
           <Innovations/>
-          <Description />
-          <Showcase />
+          <img src={`${baseUrl}img/work-harder-section.svg`} style={{width: '60%', display:'block', margin:'20px auto 100px auto;'}}></img>
         </div>
       </div>
     );

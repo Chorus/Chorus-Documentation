@@ -39,7 +39,6 @@ const siteConfig = {
     {page: 'index', label: 'Home'},
     {page: 'modules', label: 'Modules'},
     {page: 'compositions', label: 'Compositions'},
-    {page: 'initiatives', label: 'Initiatives'},
     {doc: 'ChorusCloudOverview', label: 'Docs'},
     {page: 'about', label: 'About'},
     {page: 'contact', label: 'Contact'}
@@ -49,7 +48,7 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/ChorusWhite.png',
+  headerIcon: 'img/chorus-white-icon.svg',
   footerIcon: 'img/ChorusSquare.png',
   favicon: 'img/ChorusSquare.png',
 

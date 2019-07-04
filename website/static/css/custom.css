@@ -1,7 +1,11 @@
 /* your custom css */
-.fixedHeaderContainer{
-    background: linear-gradient(to left, #6C37A3 0%, #05C7ED 100%);
+.fixedHeaderContainer {
+    background: transparent;
     height: 160px;;
+}
+
+.fixedHeaderContainer header img{
+    height: 150%;
 }
 
 .headerWrapper{
@@ -30,13 +34,42 @@
 }
 
 .navPusher {
-    padding-top: 160px;
+    padding-top: 0;
+}
+
+.mainContainer{
+    padding: 0;
 }
 
 .innovations-wrapper {
     background: #F7F7F7;
-    padding: 50px 20%;;
-    vertical-align: bottom;
+    width: 60%;
+    margin: auto;
+}
+
+.experience-grid {
+    display: grid;
+    grid-template-columns: 49% 35%;
+    grid-template-rows: 20% 59%; 
+    column-gap: 40px;
+    width: 75%;
+    margin: auto;
+}
+
+.col-1 {
+    grid-column: 1;
+}
+
+.col-2{
+    grid-column: 2;
+}
+
+.row-1{
+    grid-row: 1;
+}
+
+.row-2{
+    grid-row: 2;
 }
 
 .innovations-grid {
@@ -45,33 +78,66 @@
     grid-gap: 50px;
 }
 
-.innovations-grid .card {
+.card {
     overflow: hidden;
     background-color: white;
     border-radius: 10px;
     width: 100%;
 }
 
-.innovations-grid .card .content {
-    padding: 10px 60px 60px 40px;
+.card-content {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 49% 49%;
+    padding: 60px 60px 60px 60px;
 }
 
-.innovations-grid .card .content h1{
-    margin-bottom: 70px;
-    margin-top: 70px;
+.card-icon {
+    width: 165px;
+    height:165px;
+   padding: 0;
 }
 
-.innovations-grid .card .content p{
-    font-size: 18px;
-    font-weight: 600;
+.card-description {
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: span 2;
 }
 
-.ribbon{
+.ribbon {
     height: 5px;
 }
 
+.text-centered {
+    text-align: center;
+}
 
+.exp-img {
+    width: 80%;
+    border-radius: 12px;
+    margin: auto;
+}
 
+.header-text {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.header-text-secondary {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.text-color-purple{
+    color: #6C37A3;
+}
+
+.nav-footer{
+    background: url('../img/home-page-footer.svg');
+    background-size: 100%;
+}
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
