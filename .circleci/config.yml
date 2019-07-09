@@ -1,7 +1,7 @@
 # If you only want circle to run on direct commits to master, you can uncomment this out
 # and uncomment the filters: *filter-only-master down below too
 
- aliases:
+aliases:
   - &filter-only-master
     branches:
       only:
