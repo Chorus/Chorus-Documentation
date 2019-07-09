@@ -1,6 +1,7 @@
 ---
-id: PaymentReporting
+id: PaymentReports
 title: Payment Reporting
+hide_title
 ---
 
 # **Payment Reporting**
