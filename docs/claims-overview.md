@@ -1,6 +1,6 @@
 ---
-id: ClaimOverview
-title: Claim Overview
+id: ClaimsOverview
+title: Claims Overview
 hide_title
 ---
 

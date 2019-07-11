@@ -23,7 +23,6 @@ jobs:
             git config --global user.name "YYGold"
             echo "machine github.com login yygold password $GITHUB_TOKEN" > ~/.netrc
             cd website && yarn install && GIT_USER=yygold yarn run publish-gh-pages
-
 workflows:
   version: 2
   build_and_deploy:
