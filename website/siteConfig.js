@@ -14,7 +14,7 @@ const users = [
     caption: 'Encore Licensed Behavior Analyst',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: '/Chorus-Documentation/img/EncoreLogo.svg',
+    image: '/img/EncoreLogo.svg',
     infoLink: 'http://encoresupport.org/',
     pinned: true,
   },
@@ -23,8 +23,8 @@ const users = [
 const siteConfig = {
   title: 'Chorus Documentation', // Title for your website.
   tagline: 'Chorus Documentation',
-  url: 'https://chorus.github.io', // Your website URL
-  baseUrl: '/Chorus-Documentation/',
+  url: 'https://docs.chorus.cloud', // Your website URL
+  baseUrl: '/',
 
   // Used for publishing and more
   projectName: 'Chorus-Documentation',
@@ -101,6 +101,7 @@ const siteConfig = {
      repoUrl: 'https://github.com/Chorus/Chorus-Documentation',
 
   gaTrackingId: 'UA-142505503-1',
+  cname: 'docs.chorus.cloud'
 };
 
 module.exports = siteConfig;
