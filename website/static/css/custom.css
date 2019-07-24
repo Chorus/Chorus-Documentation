@@ -1,4 +1,39 @@
-/* your custom css */
+/* Header */
+.fixedHeaderContainer  {
+    background: linear-gradient(150deg, rgba(10,191,234,1) 0%, rgba(103,62,166,1) 80%);
+    height: 80px;;
+}
+
+header{
+    margin-top: 15px;
+}
+
+.headerWrapper.wrapper{
+    max-width: 1400px;
+}
+
+/* Header links */
+.navigationSlider .slidingNav ul li > a:focus, 
+.navigationSlider .slidingNav ul li > a:hover, 
+.navigationSlider .slidingNav ul li.siteNavItemActive > a, 
+.navigationSlider .slidingNav ul li.siteNavGroupActive > a {
+    background-color: transparent;
+}
+
+/* Main content */
+.navPusher{
+    padding-top: 80px;
+}
+
+/* Left Navigation */
+.toc {
+    padding: 55px 0;
+}
+
+/* Page summary section */
+.onPageNav {
+    top: 130px;
+}
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
