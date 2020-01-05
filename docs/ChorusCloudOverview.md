@@ -2,7 +2,7 @@
 id: ChorusCloudOverview
 title: Chorus Cloud Overview
 ---
-Comming soon
+Coming soon
 <!-- 
 # This is an overview with links
 
