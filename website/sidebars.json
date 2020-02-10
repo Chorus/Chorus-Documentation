@@ -1,6 +1,14 @@
 {
   "docs": {
     "Chours Cloud": ["ChorusCloudOverview"],
+    "Autism Care": ["AutismCare",
+      {"type":"subcategory",
+      "label":"Autism Care Overview",
+      "ids":[
+        "Overview"
+      ]
+      }
+    ],
     "Remits": [
       "RemitsOverview",
       {
