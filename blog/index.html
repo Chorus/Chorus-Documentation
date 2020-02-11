@@ -1,0 +1,73 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Blog · Chorus Documentation</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="Chorus Documentation"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Blog · Chorus Documentation"/><meta property="og:type" content="website"/><meta property="og:url" content="https://docs.chorus.cloud/"/><meta property="og:description" content="Chorus Documentation"/><meta property="og:image" content="https://docs.chorus.cloud/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/img/ChorusSquare.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://docs.chorus.cloud/blog/atom.xml" title="Chorus Documentation Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://docs.chorus.cloud/blog/feed.xml" title="Chorus Documentation Blog RSS Feed"/><script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-142505503-1', 'auto');
+              ga('send', 'pageview');
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="blog"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/ChorusWhite.png" alt="Chorus Documentation"/><h2 class="headerTitleWithLogo">Chorus Documentation</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/docs/ChorusCloudOverview" target="_self">Docs</a></li><li class="siteNavGroupActive siteNavItemActive"><a href="/blog/" target="_self">Blog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Recent Posts</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Recent Posts</h3><ul class=""><li class="navListItem"><a class="navItem" href="/blog/2019/06/24/Remits-Release">Remits Launched on Dynamics 365 Healthcare Accelerator at Inspire</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer postContainer blogContainer"><div class="wrapper"><div class="posts"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle"><a href="/blog/2019/06/24/Remits-Release">Remits Launched on Dynamics 365 Healthcare Accelerator at Inspire</a></h1><p class="post-meta">June 24, 2019</p><div class="authorBlock"><p class="post-authorName"><a href="https://www.linkedin.com/in/mordechai-meisels-3b4477100/" target="_blank" rel="noreferrer noopener">Mordechai Meisels</a></p></div></header><article class="post-content"><div><span><p><img src="https://media.licdn.com/dms/image/C4E12AQFolshnpiioxg/article-cover_image-shrink_720_1280/0?e=1569456000&amp;v=beta&amp;t=k2oOktD24ETJw7I2QEVWKL1_I2NPKZWDQxzwB0u6bqo" alt="Handshake">
+Last week at Microsoft Inspire 2019 we officially went live with <a href="https://www.chorus.cloud/modules/remits/">Remits</a>, our solution to the healthcare industry’s denial management challenges, and a game-changing addition to the Dynamics 365 Healthcare Accelerator ecosystem.
+No alt text provided for this image
+<img src="https://media.licdn.com/dms/image/C4E12AQFF6qGWrMnfbw/article-inline_image-shrink_1500_2232/0?e=1569456000&amp;v=beta&amp;t=30Y1xv2EE-mX0dw_lsmc6mApbzObjDDhe5lZQhm9cV4" alt="GoLive">
+For the ceremonious pushing of the “Go Live” button, we were joined by David Pennington, Principal PM Manager, and Healthcare Accelerator Product R&amp;D leaders Rajya Bhaiya and Smith Codio. This marked the most recent collaborative effort between the Chorus and Microsoft product teams. I’d like to commend Microsoft for delivering on its promise to serve as a partner, resource, and enabler.<br>
+Special thanks also to Jim Prussack, Partner Technology Manager, as well as Edgar Wilson, Business Applications Architect for Healthcare. We look forward to a continued, impactful partnership between Microsoft and Chorus Healthcare Solutions. Microsoft’s investment in the architecture used by next-gen solutions such as Remits will truly be a launching pad for the transformation of the healthcare IT sector.  The integration of FHIR-based entities with the Common Data Model established by the Healthcare Accelerator is a boon to Dynamics 365 architects.
+Leveraging Microsoft’s <a href="https://powerplatform.microsoft.com/en-us/">Power Platform</a>, Remits is first in a line of <a href="http://www.chorus.cloud/">Chorus Health Cloud</a> apps poised to forge a new standard for management of the revenue cycle. We are gearing up for the launch of our Claims, Eligibility, and Patient Pay apps, each of which will extend the capabilities of the Healthcare Accelerator by allowing legacy EDI-centric platforms to integrate with next-gen technology.</p>
+<p><a href="https://www.linkedin.com/pulse/remits-launched-dynamics-365-healthcare-accelerator-inspire-meisels/">Linkedin Post</a></p>
+</span></div></article></div><div class="docs-prevnext"></div></div></div></div></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/ChorusSquare.png" alt="Chorus Documentation" width="66" height="58"/></a><div><h5>Community</h5><a href="/en/users.html">User Showcase</a><a href="https://github.com/Chorus/Chorus-Documentation/issues">GitHub Issues</a><a href="https://twitter.com/ChorusCloud" target="_blank">Twitter</a></div><div><h5>More</h5><a href="/blog">Blog</a><a href="https://github.com/Chorus">GitHub</a><a href="https://www.linkedin.com/company/chorus-software-solutions/about/">linkedin</a><a href="/docs/LegalDocs/PrivacyPolicy.html">Privacy Policy</a></div></section><section class="copyright">Copyright © 2020 Chorus Software Solutions</section></footer></div></body></html>

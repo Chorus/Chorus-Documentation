@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://docs.chorus.cloud/blog</id>
+    <title>Chorus Documentation Blog</title>
+    <updated>2019-06-24T06:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://docs.chorus.cloud/blog"/>
+    <subtitle>The best place to stay up-to-date with the latest Chorus Documentation news and events.</subtitle>
+    <logo>https://docs.chorus.cloud/img/ChorusWhite.png</logo>
+    <rights>Copyright © 2020 Chorus Software Solutions</rights>
+    <entry>
+        <title type="html"><![CDATA[Remits Launched on Dynamics 365 Healthcare Accelerator at Inspire]]></title>
+        <id>https://docs.chorus.cloud/blog/2019/06/24/Remits-Release.html</id>
+        <link href="https://docs.chorus.cloud/blog/2019/06/24/Remits-Release.html"/>
+        <updated>2019-06-24T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><img src="https://media.licdn.com/dms/image/C4E12AQFolshnpiioxg/article-cover_image-shrink_720_1280/0?e=1569456000&amp;v=beta&amp;t=k2oOktD24ETJw7I2QEVWKL1_I2NPKZWDQxzwB0u6bqo" alt="Handshake"> Last week at Microsoft Inspire 2019 we officially went live with <a href="https://www.chorus.cloud/modules/remits/">Remits</a>, our solution to the healthcare industry’s denial management challenges, and a game-changing addition to the Dynamics 365 Healthcare Accelerator ecosystem. No alt text provided ...</p>]]></summary>
+        <author>
+            <name>Mordechai Meisels</name>
+            <email/>
+            <uri>https://www.linkedin.com/in/mordechai-meisels-3b4477100/</uri>
+        </author>
+    </entry>
+</feed>
