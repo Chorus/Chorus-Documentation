@@ -14,11 +14,11 @@ In Sessions, one can see session details which include information and instructi
 
 1. Click on “Sessions” in the bottom navigation bar 
    
-   ![bottom-navigation-sessions](assests/BottomNavigationSessions.jpg)
+   ![bottom-navigation-sessions](assets/BottomNavigationSessions.jpg)
 
 2. Click on a session to see the session details 
    
-   ![session-scheduled](assests/session-scheduled.jpg)
+   ![session-scheduled](assets/session-scheduled.jpg)
 
 ## Students and Care Plans
 
