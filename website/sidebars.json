@@ -1,13 +1,7 @@
 {
   "docs": {
-    "Chours Cloud": ["ChorusCloudOverview"],
-    "Autism Care": ["AutismCare",
-      {"type":"subcategory",
-      "label":"Autism Care Overview",
-      "ids":[
-        "AutismCareOverview"
-      ]
-      }
+    "Chours Cloud": [
+      "ChorusCloudOverview"
     ],
     "Remits": [
       "RemitsOverview",
@@ -19,10 +13,10 @@
           "Connection",
           "Configuration",
           "ClaimLifecycle"
-        ]        
+        ]
       },
       {
-        "type":"subcategory",
+        "type": "subcategory",
         "label": "Remittance Advices",
         "ids": [
           "RemittanceAdviceOverview",
@@ -32,7 +26,7 @@
         ]
       },
       {
-        "type":"subcategory",
+        "type": "subcategory",
         "label": "Claims",
         "ids": [
           "ClaimsOverview",
@@ -42,7 +36,7 @@
         ]
       },
       {
-        "type":"subcategory",
+        "type": "subcategory",
         "label": "Denial Management",
         "ids": [
           "CaseSystemOverview",
@@ -53,18 +47,21 @@
         ]
       }
     ],
-    "AutismCare":[
-      "RemitsOverview",
+    "AutismCare": [
+        "AutismCare/AutismCareOverview",
       {
         "type": "subcategory",
         "label": "Getting Started",
         "ids": [
-          "Installation",
+          "AutismCare/Overview",
           "Connection",
           "Configuration",
           "ClaimLifecycle"
-        ]        
+        ]
       }
+    ],
+    "Note AutismCare": [
+      "Note/NoteAppMainNavigation"
     ]
   }
 }
