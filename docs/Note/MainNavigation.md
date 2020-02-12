@@ -30,6 +30,9 @@ In Students on the bottom navigation bar, one can see the student list, care pla
 
 1. Select student 
 
+## Tutorial
+![video](https://www.chorus.cloud/wp-content/uploads/2020/02/AutismCarePromo.mp4)
+
 ## Significance 
 
 Our goal was to make a meticulous, and often complicated process as simple and intuitive as possible. We created an all-in-one software that covers everything from data collection and graphing to scheduling and billing.
