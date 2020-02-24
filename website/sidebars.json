@@ -53,10 +53,21 @@
         "type": "subcategory",
         "label": "Getting Started",
         "ids": [
-          "AutismCare/Overview",
-          "Connection",
-          "Configuration",
-          "ClaimLifecycle"
+        "AutismCare/Sitemap"
+          
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Patients",
+        "ids": [
+        "AutismCare/PatientDemographics", 
+        "AutismCare/PatientRelatedContacts",
+        "AutismCare/PatientMedicalInfo", 
+        "AutismCare/PatientCoverage"
+        
+      
+          
         ]
       }
     ],
