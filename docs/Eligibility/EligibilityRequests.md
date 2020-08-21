@@ -3,17 +3,18 @@ id: EligibilityRequest
 title: Eligibility Requests
 hide_title
 ---
-##Creating a Request  
+## Creating a Request  
 An Eligibility request can be created using the "New" button on the Coverage Eligibility Main form.
   Upon Save the user is navigated to the Eligibility Request main screen where they can review the detailed Response information. 
 
-![New-Request](assets/Eligibility/New Request.jpg) 
-![Quick-Create](assets/Eligibility/QuickCreate.jpb)
+![New-Request](assets/Eligibility/NewRequest.png)
 
-##Editing a Request
+![Quick-Create](assets/Eligibility/QuickCreate.PNG)
+
+## Editing a Request
 Using the "Modify and Resubmit" button on the Eligibility Request main form users can re-submit a request and modify the request information before sending to the payer. 
 
-##Sending a Request
+## Sending a Request
 A basic eligibility request requires a:
 [Submitter Id](/Eligibility/Eligibility-Requests/Submitter-Id)
 [Provider NPI](/Eligibility/Eligibility-Requests/Provider-NPI)

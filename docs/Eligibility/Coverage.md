@@ -12,7 +12,7 @@ A coverage record tracks the Member, Subscriber Id, Start Date, End Date and Pay
 The coverage record start and end dates are continuously updated based on the latest Eligibility repsonse received.
 
 ## Search Coverage
-To search for coverage records navigate to 'Coverage Records' on the left navigaion pain.
+To search for coverage records navigate to 'Coverage Records' on the left navigation pain.
 ![Coverage_Navigation](assets/Eligibility/CoverageNavigation.PNG)
 
 ## View Coverage
