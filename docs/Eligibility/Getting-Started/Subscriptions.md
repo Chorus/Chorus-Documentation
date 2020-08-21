@@ -4,7 +4,7 @@ title: Subscriptions
 hide_title
 ---
 
-##Create Subscription
-##Update Subscription
-##Enter Payment Information
-##Update Payment Information
+## Create Subscription
+## Update Subscription
+## Enter Payment Information
+## Update Payment Information
