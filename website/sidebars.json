@@ -1,9 +1,8 @@
 {
   "docs": {
-    "Chours Cloud Test": [
+    "Chours Cloud": [
       "ChorusCloudOverview"
     ],
-
     "Eligibility": [
       "EligibilityOverview",
       {
@@ -28,9 +27,7 @@
           "DynamicsHealthIntegration"
         ]
       }
-
     ],
-
     "Remits": [
       "RemitsOverview",
       {
@@ -75,7 +72,7 @@
         ]
       }
     ],
-    "AutismCare": [
+    "Autism Care": [
         "AutismCare/AutismCareOverview",
       {
         "type": "subcategory",
