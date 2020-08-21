@@ -3,6 +3,34 @@
     "Chours Cloud": [
       "ChorusCloudOverview"
     ],
+
+    "Eligibility": [
+      "EligibilityOverview",
+      {
+        "type": "subcategory",
+        "label": "Getting Started",
+        "ids": [
+          "EligibilityInstallation",
+          "Subscriptions",
+          "ClearingHouseSubmitter",
+          "SecurityRoles"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Eligibility Requests",
+        "ids": [
+          "EligibilityRequests",
+          "PayerId",
+          "ProviderNPI",
+          "SubmitterId",
+          "Coverage",
+          "DynamicsHealthIntegration"
+        ]
+      }
+
+    ],
+
     "Remits": [
       "RemitsOverview",
       {
@@ -71,7 +99,7 @@
         ]
       }
     ],
-    "Note AutismCare": [
+    "Note Autism Care": [
       "Note/NoteAppMainNavigation"
     ]
   }
