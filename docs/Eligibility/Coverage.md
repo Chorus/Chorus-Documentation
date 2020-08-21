@@ -13,8 +13,8 @@ The coverage record start and end dates are continuously updated based on the la
 
 ## Search Coverage
 To search for coverage records navigate to 'Coverage Records' on the left navigaion pain.
-![Coverage_Navigation](assets/Eligibility/CoverageNavigation)
+![Coverage_Navigation](assets/Eligibility/CoverageNavigation.PNG)
 
 ## View Coverage
 
-![Coverage](assets/Eligibility/Coverage.png)
+![Coverage](assets/Eligibility/Coverage.PNG)
