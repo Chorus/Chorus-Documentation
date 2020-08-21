@@ -48,27 +48,27 @@
       }
     ],
     "Eligibility": [
-      "EligibilityOverview",
+      "Eligibility/EligibilityOverview",
       {
         "type": "subcategory",
         "label": "Getting Started",
         "ids": [
-          "EligibilityInstallation",
-          "Subscriptions",
-          "ClearingHouseSubmitter",
-          "SecurityRoles"
+          "Eligibility/Getting-Started/EligibilityInstallation",
+          "Eligibility/Getting-Started/Subscriptions",
+          "Eligibility/Getting-Started/ClearingHouseSubmitter",
+          "Eligibility/Getting-Started/SecurityRoles"
         ]
       },
       {
         "type": "subcategory",
         "label": "Eligibility Requests",
         "ids": [
-          "EligibilityRequests",
-          "PayerId",
-          "ProviderNPI",
-          "SubmitterId",
-          "Coverage",
-          "DynamicsHealthIntegration"
+          "Eligibility/EligibilityRequest",
+          "Eligibility/PayerId",
+          "Eligibility/ProviderNPI",
+          "Eligibility/SubmitterId",
+          "Eligibility/Coverage",
+          "Eligibility/DynamicsHealthIntegration"
         ]
       }
     ],
