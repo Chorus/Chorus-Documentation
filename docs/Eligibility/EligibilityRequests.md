@@ -25,5 +25,5 @@ Patient DOB
 Specific payers may require additional information. If required, an error will be returned requesting the additional information. 
 
 
-##Errors
+## Errors
 If an error is returned by the payer, users can review the returned error information on the Eligibility Request main form.
