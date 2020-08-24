@@ -16,5 +16,6 @@ To search for coverage records navigate to 'Coverage Records' on the left naviga
 ![Coverage_Navigation](assets/Eligibility/CoverageNavigation.PNG)
 
 ## View Coverage
+Select a specific reocord from the Coverage Main grid to view details. 
 
 ![Coverage](assets/Eligibility/Coverage.PNG)
