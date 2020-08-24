@@ -5,24 +5,30 @@ hide_title
 ---
 ## Creating a Request  
 An Eligibility request can be created using the "New" button on the Coverage Eligibility Main form.
-  Upon Save the user is navigated to the Eligibility Request main screen where they can review the detailed Response information. 
+ 
 
 ![New-Request](assets/Eligibility/NewRequest.png)
 
+A quick create form will slide out from the right side. 
 ![Quick-Create](assets/Eligibility/QuickCreate.PNG)
+1. Enter the patient's member Id.
+2. Choose from the list of [Payors](Eligibility/Payer-Id). Start typing to filter and find a payor.
+3. For a new patient, enter the patient's birth date, first name and last name.     For a pre-existing patient use the Patient lookup field to find the patient's contact record. The patient's birth date, first and last name will auto-fill. 
+4. Enter the start and end date that you wish to search coverage for. 
+5. Enter the category of coverage you want to request.
 
-## Editing a Request
-Using the "Modify and Resubmit" button on the Eligibility Request main form users can re-submit a request and modify the request information before sending to the payer. 
+An eligibilty request is also sent with a Submitter Id and Provider NPI. See below docs to understand how those are determined.
 
-## Sending a Request
-A basic eligibility request requires a:
-[Submitter Id](/Eligibility/Eligibility-Requests/Submitter-Id)
+ [Submitter Id](/Eligibility/Eligibility-Requests/Submitter-Id) 
+
 [Provider NPI](/Eligibility/Eligibility-Requests/Provider-NPI)
-Patient Member Id
-Patient DOB
-[Payer Id](/Eligibility/Eligibility-Requests/Payer-Id)
+. 
 
-Specific payers may require additional information. If required, an error will be returned requesting the additional information. 
+ Upon Save you will be navigated to the Eligibility Request main form where you can review the detailed Response information. 
+## Editing a Request
+Using the "Modify and Resubmit" button on the Eligibility Request main form you can re-submit a request and modify the request information before sending to the payer. 
+![Modify-and-Resubmit](assets/Eligibility/ModifyResubmit.png)
+
 
 
 ## Errors

@@ -64,11 +64,17 @@
         "label": "Eligibility Requests",
         "ids": [
           "Eligibility/EligibilityRequest",
-          "Eligibility/PayerId",
-          "Eligibility/ProviderNPI",
-          "Eligibility/SubmitterId",
           "Eligibility/Coverage",
           "Eligibility/DynamicsHealthIntegration"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Request Configuration",
+        "ids": [
+          "Eligibility/PayerId",
+          "Eligibility/ProviderNPI",
+          "Eligibility/SubmitterId"
         ]
       }
     ],
