@@ -4,7 +4,7 @@ title: Eligibility Requests
 hide_title
 ---
 ## Creating a Request  
-An Eligibility request can be created using the "New" button on the Coverage Eligibility Main form.
+To create a new Eligibility request click 'Eligibility Request' on the left navigation bar. Then, select "New" on the top ribbon.
  
 
 ![New-Request](assets/Eligibility/NewRequest.png)
@@ -17,7 +17,7 @@ A quick create form will slide out from the right side.
 4. Enter the start and end date that you wish to search coverage for. 
 5. Enter the category of coverage you want to request.
 
-An eligibilty request is also sent with a Submitter Id and Provider NPI. See below docs to understand how those are determined.
+An eligibility request is also sent with a Submitter Id and Provider NPI. See below docs to understand how those are determined.
 
  [Submitter Id](/Eligibility/Eligibility-Requests/Submitter-Id) 
 
