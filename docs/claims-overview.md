@@ -28,7 +28,7 @@ To open a claim form, click on a claim record in the grid.
 The claim main form displays all claim details as they were submitted to and returned by the pay0r on the remit. For efficient research and follow-up, claim related information such as previous submissions of the claim, all remits against the claim, write-offs recorded on the claim, and the case that has been created to resolve payment discrepancies for the claim, are displayed as well.
 
 ### **Claim Info**
-The Claim Info tab is where the claim information is displayed in its entirety. This tab is divided into two main sections -
+The Claim Info tab is where the claim information is displayed in its entirety. This tab is divided into two main sections:
 
 The top half displays the the general claim details, as they were submitted to the payor. 
 

@@ -17,7 +17,7 @@ Navigate to the Remits main grid by clicking 'Remits' on the sitemap. To search 
 
 ![Sitemap - Remits](assets/Remits/Remits_Screenshots/Sitemap-Remits.png)
 
-By default, the 'Recent Remits' view will display. Another view for 'All Remits' is available as well.
+By default, the 'Recent Remits' view will display. Another view with 'All Remits' is available as well.
 
 - Recent Remits - Remits with a transaction date within the past 30 days. 
 - All Remits - All (active?) remits in the system.
