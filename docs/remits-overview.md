@@ -49,19 +49,20 @@ The Remit Info tab is where all remit information is displayed. This tab is divi
 |Transaction | A lookup to the transaction this remit is included in. |
 |Claim | A lookup to the claim this remit is responding to. |
 
-<br> <br>
 
 #### **Remit Lines Sub-grid**
 
-In the remit lines sub-grid the details per service lines as well as the adjustments on each line are displayed. In the Service Adjustment Details column the adjustments are grouped as Group Code - Reason Code - Dollar Amount, for example: CO-45-$100.00. When there is more than one adjustment on a line, the adjustment groups are separated by vertical bars.
+In the remit lines sub-grid the details per service line are displayed, along with the payor's adjustments applied on the remit line.
 
-![Remit Lines Subgrid](assets/Remits/Remits_Screenshots/RemitLinesSub-grid.png)
+The remit line adjustments are listed in the Service Adjustment Details column. The three components of each adjustment are grouped together and set up as: Group code - Reason code - Dollar amount associated with this adjustment, for example CO-45-$100.00. When there is more than one adjustment on a service line, the adjustment groups are separated by vertical bars. 
+
+![Remit Lines Subgrid](assets/Remits/Remits_Screenshots/RemitLinesSubgrid-ServiceLineAdjustments.png)
 
 
 ### **Remit Adjustments**
+On this tab, the Remit Adjustments sub-grid displays adjustments applied to the remit on the remit level (not on individual remit lines). 
 
-
-### **Cases**
+### **Case Info**
 
 
 
