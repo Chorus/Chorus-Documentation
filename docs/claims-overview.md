@@ -9,13 +9,13 @@ This section contains an overview of how users interact with claims, as well as 
 
 
 ## **Viewing a Claim**
-Upon import of an 835 Remit file, the system creates a claim based on the information in the remit.
+Upon import of an 835 Remit file, the system constructs a claim based on the information in the remit. (See [Reversals](...reversals) for a detailed explanation on how reversals are handled by the system.)
 
 ### **Claim Main Grid**
 
 Navigate to the Claims main grid by clicking 'Claims' on the sitemap. To search for and navigate to claims, use the claims main grid.
 
-![Sitemap - Claims](assets/Remits/Sitemap-Claims.png)
+![Sitemap - Claims](assets/Remits/Claim_Screenshots/Sitemap-Claims.png)
 
 By default, the 'Current Claims' view will display. Other available views are - Historical Claims and All Claims.
 
@@ -25,14 +25,14 @@ By default, the 'Current Claims' view will display. Other available views are - 
 
 To open a claim form, click on a claim record in the grid.
 
-The claim main form displays all claim details as they were submitted to and returned by the payer on the remit. For efficient research and follow-up, claim related information such as previous submissions of the claim, all remits against the claim, write-offs recorded on the claim, and the case that has been created to resolve payment discrepancies for the claim, are displayed as well.
+The claim main form displays all claim details as they were submitted to and returned by the pay0r on the remit. For efficient research and follow-up, claim related information such as previous submissions of the claim, all remits against the claim, write-offs recorded on the claim, and the case that has been created to resolve payment discrepancies for the claim, are displayed as well.
 
 ### **Claim Info**
 The Claim Info tab is where the claim information is displayed in its entirety. This tab is divided into two main sections -
 
-The top half displays the the general claim details, as they were submitted to the payer. 
+The top half displays the the general claim details, as they were submitted to the payor. 
 
-![Claim Info tab](assets/Remits/ClaimInfoTab.png)
+![Claim Info tab](assets/Remits/Claim_Screenshots/ClaimInfoTab.png)
 
 | Field | Description |
 |---|---|---| --- |
@@ -42,8 +42,8 @@ The top half displays the the general claim details, as they were submitted to t
 |Period Start |The Service Start Date of the earliest claim line.
 |Period End |The Service End Date of the latest claim line.
 |Total Billed |	The amount billed in this claim. This is the sum of the billed amount for each service line in the claim.
-|Expected Price List |A lookup to the [Price List](/Remits/Setup/Price-List) detailing the allowed (expected) price per service, based on your organization's contracted rates with the payer. 
-|Payer | A lookup to the the insurer who has adjudicated this claim.
+|Expected Price List |A lookup to the [Price List](/Remits/Setup/Price-List) detailing the allowed (expected) price per service, based on your organization's contracted rates with the payor. 
+|Payor | A lookup to the the insurer who has adjudicated this claim.
 |Provider |A lookup to the the individual or agency that provided the services in this claim.
 |Patient |A lookup to the patient to whom the services in this claim were rendered.
 |Coverage |A lookup to the patient's insurance policy applicable in this claim's reimbursement.
@@ -61,41 +61,41 @@ The second half of the screen is a grid listing the details for all claim lines 
 
 To view the write-offs recorded on a claim line, click on the '>' next to a claim line to expand the grid.
 
-![Claim Lines Subgrid](assets/Remits/ClaimLinesSubgridExpanded.PNG)
+![Claim Lines Subgrid](assets/Remits/Claim_Screenshots/ClaimLinesSubgridExpanded.PNG)
 
 
 ### **Submissions Summary**
 On the submissions Summary tab you can see the complete history of the claim - how many times the claim was resubmitted, and what changed in each submission.
 The status reason on the claim differentiates between the most recent submission - in which the status reason is 'Current Submission', and all previous sumbissions - marked with the status reason 'Historical Submission'.
 
-![Claim Status Reason](assets/Remits/SubmissionsSummaryTabStatusReason.PNG)
+![Claim Status Reason](assets/Remits/Claim_Screenshots/SubmissionsSummaryTabStatusReason.PNG)
 
 
 To view details on a claim submission, click on the '>' next to a claim submission record to expand the grid, and view the claim lines in this claim submission.
 
-![Submissions Summary tab](assets/Remits/SubmissionsSummaryTabExpanded.png)
+![Submissions Summary tab](assets/Remits/Claim_Screenshots/SubmissionsSummaryTabExpanded.png)
 
 #### **Claim Status Reason - Current Submission vs. Historical Submission**
 
-A newly created claim has a status reason 'Current Submission'. If the claim is resubmitted to the payer for reconsideration, and a new remit - against the same claim, with the same claim number - enters the system, the status reason on the first claim is updated to 'Historical Submission' and the new claim assumes the 'Current Submission' status reason.
+A newly created claim has a status reason 'Current Submission'. If the claim is resubmitted to the payor for reconsideration, and a new remit - against the same claim, with the same claim number - enters the system, the status reason on the first claim is updated to 'Historical Submission' and the new claim assumes the 'Current Submission' status reason.
 
 The 'Current Submission' of each claim always contains the most up-to-date information about the claim, which is reflected in the calculations. When viewing a 'Historical Submission' of a claim, a warning banner will display on top of the form notifying you that there is a more recent and updated version of the claim, with a link to the 'Current Submission' of the claim.
 
 
-![Claim Lines Subgrid](assets/Remits/ClaimLinesSubgridExpanded.png)
+![Claim Lines Subgrid](assets/Remits/Claim_Screenshots/ClaimLinesSubgridExpanded.png)
 
 
 ### **Remits Summary**
-The Remits Summary sub-grid shows all remits that have been received from the payer as a response to this claim. You can use the two system views to select whether all remits received against all submissions of the claim are displayed, or only those received against this submission of the claim.
+The Remits Summary sub-grid shows all remits that have been received from the payor as a response to this claim. You can use the two system views to select whether all remits received against all submissions of the claim are displayed, or only those received against this submission of the claim.
 
-![System View Selector](assets/Remits/RemitsSummaryTabSystemViews.png)
+![System View Selector](assets/Remits/Claim_Screenshots/RemitsSummaryTabSystemViews.png)
 
 
 To see the service lines included in a remit, click on the '>' next to a record to expand the grid, and view service line details and adjustments.
 
-![Remits Summary Tab](assets/Remits/RemitsSummaryTabExpanded.png)
+![Remits Summary Tab](assets/Remits/Claim_Screenshots/RemitsSummaryTabExpanded.png)
 
-A single claim submission can have multiple remits against it.  For example, in the case of a payment reversal: The original payment is one remit, and the subsequent reversal is the second remit. Both of these remits are received against a single claim submission. Or, if the payer split the claim you submitted and paid it in more than  one remit.
+A single claim submission can have multiple remits against it.  For example, in the case of a payment reversal: The original payment is one remit, and the subsequent reversal is the second remit. Both of these remits are received against a single claim submission. Or, if the payor split the claim you submitted and paid it in more than  one remit.
 
 When there is a combination of both of the above scenarios, there could be quite a few remits against the same claim submission.
 
@@ -109,9 +109,7 @@ A claim level write-off is a write-off applied on the claim.
 
 To create a claim level write-off, click the Write-Off button on the command bar. A quick create form will slide out on the side of the screen where you can enter the write-off details. Click 'Save and Close' to save the write-off record you just created, and return to the claim form.
 
-![Write-Off Button - Command Bar](assets/Remits/....)
-
-![Claim Level Write-Off Quick Create](assets/Remits/....)
+![Write-Off Button - Command Bar](assets/Remits/Claim_Screenshots/Write-OffButton-CommandBar.png) ![Claim Level Write-Off Quick Create](assets/Remits/Claim_Screenshots/ClaimWrite-OffQuickCreate.png)
 
 | Field | Description |
 |---|---|---| --- |
@@ -127,9 +125,7 @@ A claim line level write-off is a write-off applied on an individual claim line.
 
 To create a claim line write-off, select the claim line in the Claim Line Sub-grid, and click the Write-Off button in the grid command bar. A quick create form will slide out on the side of the screen where you can enter the write-off details. Click 'Save and Close' to save the write-off record you just created, and return to the claim form.
 
-![Write-Off Button - Sub-grid](assets/Remits/....)
-
-![Claim Line Level Write-Off Quick Create](assets/Remits/....)
+![Write-Off Button - Sub-grid](assets/Remits/Claim_Screenshots/Write-OffButton-Sub-grid.png) ![Claim Line Level Write-Off Quick Create](assets/Remits/Claim_Screenshots/ClaimLineWrite-OffQuickCreate.png)
 
 | Field | Description |
 |---|---|---| --- |
