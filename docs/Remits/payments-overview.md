@@ -20,7 +20,7 @@ Navigate to the Payments main grid by clicking 'Payments' on the sitemap. To sea
 By default, the 'Recent Payments' view will display. Another view with 'All Payments' is available as well.
 
 - Recent Payments - Payments with a Check/Payment date (or transaction date?) within the past 30 days. 
-- All Payments - All (active?) payments in the system.
+- All Payments - All payments in the system.
 
 To open a payment form, click on a payment record in the grid.
 

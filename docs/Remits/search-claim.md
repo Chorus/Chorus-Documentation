@@ -8,7 +8,7 @@ hide_title
 
 Navigate to the Claims main grid by clicking 'Claims' on the sitemap. To search for and navigate to claims, use the claims main grid.
 
-![Sitemap - Claims](assets/Remits/Sitemap-Claims.png)
+<!-- //![Sitemap - Claims](assets/Remits/Sitemap-Claims.png) -->
 
 By default, the 'Current Claims' view will display. Other available views are - Historical Claims and All Claims.
 

@@ -20,7 +20,7 @@ The Claim Info tab is where the claim information is displayed in its entirety. 
 
 The top half displays the the general claim details, as they were submitted to the payor. 
 
-![Claim Info tab](assets/Remits/Claim_Screenshots/ClaimInfoTab.png)
+//![Claim Info tab](assets/Remits/Claim_Screenshots/ClaimInfoTab.png)
 
 | Field | Description |
 |---|---|
@@ -56,7 +56,7 @@ To view the write-offs recorded on a claim line, click on the '>' next to a clai
 On the submissions Summary tab you can see the complete history of the claim - how many times the claim was resubmitted, and what changed in each submission.
 The status reason on the claim differentiates between the most recent submission - in which the status reason is 'Current Submission', and all previous sumbmissions - marked with the status reason 'Historical Submission'.
 
-![Claim Status Reason](assets/Remits/Claim_Screenshots/SubmissionsSummaryTabStatusReason.PNG)
+<!-- ![Claim Status Reason](assets/Remits/Claim_Screenshots/SubmissionsSummaryTabStatusReason.PNG) -->
 
 
 To view details on a claim submission, click on the '>' next to a claim submission record to expand the grid, and view the claim lines in this claim submission.
@@ -69,8 +69,8 @@ A newly created claim has a status reason 'Current Submission'. If the claim is 
 
 The 'Current Submission' of each claim always contains the most up-to-date information about the claim, which is reflected in the calculations. When viewing a 'Historical Submission' of a claim, a warning banner will display on top of the form notifying you that there is a more recent and updated version of the claim, with a link to the 'Current Submission' of the claim.
 
-
-![Claim Lines Subgrid](assets/Remits/Claim_Screenshots/ClaimLinesSubgridExpanded.png)
+<!-- 
+//![Claim Lines Subgrid](assets/Remits/Claim_Screenshots/ClaimLinesSubgridExpanded.png) -->
 
 
 ### **Remits Summary**

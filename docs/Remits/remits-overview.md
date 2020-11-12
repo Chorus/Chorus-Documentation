@@ -30,7 +30,7 @@ The remit main form displays all remit data and adjustments on the remit as well
 The Remit Info tab is where all remit information is displayed. This tab is divided into two main sections - the top half displays the general remit details as outlined below, and the second half of the screen contains detailed remit line information in a sub-grid.
 
 
-![Remit Info tab](assets\Remits\Remits_Screenshots\RemitInfoTab.PNG)
+<!-- ![Remit Info tab](assets\Remits\Remits_Screenshots\RemitInfoTab.PNG) -->
 
 | Field | Description |
 |---|---|
