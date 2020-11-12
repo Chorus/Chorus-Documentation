@@ -13,7 +13,7 @@ Upon import of an 835 Remit file, the system constructs a claim based on the inf
 
 ### Claim Main Form
 
-The claim main form displays all claim details as they were submitted to and returned by the pay0r on the remit. For efficient research and follow-up, claim related information such as previous submissions of the claim, all remits against the claim, write-offs recorded on the claim, and the case that has been created to resolve payment discrepancies for the claim, are displayed as well.
+The claim main form displays all claim details as they were submitted to and returned by the payor on the remit. For efficient research and follow-up, claim related information such as previous submissions of the claim, all remits against the claim, write-offs recorded on the claim, and the case that has been created to resolve payment discrepancies for the claim, are displayed as well.
 
 ### **Claim Info**
 The Claim Info tab is where the claim information is displayed in its entirety. This tab is divided into two main sections:
@@ -23,7 +23,7 @@ The top half displays the the general claim details, as they were submitted to t
 ![Claim Info tab](assets/Remits/Claim_Screenshots/ClaimInfoTab.png)
 
 | Field | Description |
-|---|---|---| --- |
+|---|---|
 |Status Reason |The claim's status - whether it is the 'Current Submission' or a 'Historical Submission' of the claim. (See [Submissions Summary](/SubmissionSummary) below.)
 |Claim Number |The claim number your organization assigned to the claim. (Patient Account Number)
 |Claim Type	|The category of claim e.g. professional, institutional, oral, pharmacy, vision.
@@ -41,7 +41,7 @@ The top half displays the the general claim details, as they were submitted to t
 |Total Paid | The total amount received in payment for this claim since the first submission and including all subsequent submissions. This is the same as the 'Total Paid - All Submissions' field.
 |Total Cost Share Adjustments | The amount the 'Outstanding Amount' on the claim is reduced by [Cost Share Adjustments](/Remits/Remit/Adjustments/Cost-Share-Adjustments) - based on the CARC Codes the organization set to include as Cost Share Adjustments. This is the sum of the Cost Share Adjustment amount for each service line in the claim, and any remit level adjustments on the claim.
 |Total Write-Offs | The amount the 'Outstanding Amount' on the claim is reduced by [Write Offs](/Remits/Claim/Write-Offs) recorded on the claim as a whole, and individual claim lines.
-|Total Outstanding | The unpaid amount that your organization is expecting to receive for this claim. This is the sum of the outstanding amount for each service line in the claim. The 'Total Outstanding' amount is auto-calculated by the system as: *Total Expected - Total Paid - Total Cost Share Adjustments - Total Write-Offs = Total Outstanding*.
+|Total Outstanding | The unpaid amount that your organization is expecting to receive for this claim. This is the sum of the outstanding amount for each service line in the claim. The 'Total Outstanding' amount is auto-calculated by the system as: *Total Expected - Total Paid - Total Cost Share Adjustments - Total Write-Offs = Total Outstanding*.|
 
 <br> <br>
 
@@ -54,7 +54,7 @@ To view the write-offs recorded on a claim line, click on the '>' next to a clai
 
 ### **Submissions Summary**
 On the submissions Summary tab you can see the complete history of the claim - how many times the claim was resubmitted, and what changed in each submission.
-The status reason on the claim differentiates between the most recent submission - in which the status reason is 'Current Submission', and all previous sumbissions - marked with the status reason 'Historical Submission'.
+The status reason on the claim differentiates between the most recent submission - in which the status reason is 'Current Submission', and all previous sumbmissions - marked with the status reason 'Historical Submission'.
 
 ![Claim Status Reason](assets/Remits/Claim_Screenshots/SubmissionsSummaryTabStatusReason.PNG)
 
