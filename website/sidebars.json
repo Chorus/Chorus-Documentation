@@ -9,43 +9,28 @@
         "type": "subcategory",
         "label": "Getting Started",
         "ids": [
-          "Installation",
-          "Connection",
-          "Configuration",
-          "ClaimLifecycle"
+          "Remits/Installation",
+          "Remits/Connection",
+          "Remits/ClaimLifecycle"
         ]
       },
       {
         "type": "subcategory",
         "label": "Remittance Advices",
         "ids": [
-          "RemittanceAdviceOverview",
-          "InputRemits",
-          "ViewRemits",
-          "PaymentReports"
+          "Remits/RemitsOverview",
+          "Remits/PaymentsOverview"
         ]
       },
       {
         "type": "subcategory",
         "label": "Claims",
         "ids": [
-          "ClaimsOverview",
-          "InputClaim",
-          "ViewClaim",
-          "ClaimReports"
-        ]
-      },
-      {
-        "type": "subcategory",
-        "label": "Denial Management",
-        "ids": [
-          "CaseSystemOverview",
-          "WorkQueues",
-          "FollowUpActivity",
-          "CaseAutomation",
-          "DenialManagementReports"
+          "Remits/ClaimsOverview",
+          "Remits/SearchClaim"
         ]
       }
+
     ],
     "Eligibility": [
       "Eligibility/EligibilityOverview",
