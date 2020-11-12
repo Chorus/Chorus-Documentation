@@ -16,4 +16,6 @@ By default, the 'Current Claims' view will display. Other available views are - 
 - Historical Claims - Claims with a status reason of 'Historical Submission.
 - All Claims - Lists all claims; with a status reason of 'Current Submission' and 'Historical Submission'.
 
-To open a claim form, click on a claim record in the grid.
+To open a claims form, click on a claim record in the grid.
+
+test
