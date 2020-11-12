@@ -20,7 +20,7 @@ Navigate to the Remits main grid by clicking 'Remits' on the sitemap. To search 
 By default, the 'Recent Remits' view will display. Another view with 'All Remits' is available as well.
 
 - Recent Remits - Remits with a transaction date within the past 30 days. 
-- All Remits - All (active?) remits in the system.
+- All Remits - All remits in the system.
 
 To open a remit form, click on a remit record in the grid.
 
