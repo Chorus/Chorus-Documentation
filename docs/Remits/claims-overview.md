@@ -100,7 +100,7 @@ To create a claim level write-off, click the Write-Off button on the command bar
 ![Write-Off Button - Command Bar](assets/Remits/Claim_Screenshots/Write-OffButton-CommandBar.png) ![Claim Level Write-Off Quick Create](assets/Remits/Claim_Screenshots/ClaimWrite-OffQuickCreate.png)
 
 | Field | Description |
-|---|---|---| --- |
+|---|---|
 |Claim |The claim against which this write-off is being recorded. This field is auto-populated with the claim name of the claim you are recording the write-off on.
 |Amount | Enter the write-off amount.
 |Reason |Select the reason for the write-off from the following options: Exceeded authorization, Billed duplicates, System billing error, Timely filing, Uncredentialed provider, Rate adjustment, Non-billable service.|
@@ -116,7 +116,7 @@ To create a claim line write-off, select the claim line in the Claim Line Sub-gr
 ![Write-Off Button - Sub-grid](assets/Remits/Claim_Screenshots/Write-OffButton-Sub-grid.png) ![Claim Line Level Write-Off Quick Create](assets/Remits/Claim_Screenshots/ClaimLineWrite-OffQuickCreate.png)
 
 | Field | Description |
-|---|---|---| --- |
+|---|---|
 |Claim Line |The claim line against which this write-off is being recorded. This field is auto-populated with the claim line name of the claim line you are recording the write-off on.
 |Amount | Enter the write-off amount.
 |Reason |Select the reason for the write-off from the following options: Exceeded authorization, Billed duplicates, System billing error, Timely filing, Un-credentialed provider, Rate adjustment, Non-billable service.|
