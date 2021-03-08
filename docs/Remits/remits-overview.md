@@ -63,4 +63,3 @@ The remit line adjustments are listed in the Service Adjustment Details column. 
 On this tab, the Remit Adjustments sub-grid displays adjustments applied to the remit on the remit level (not on individual remit lines). 
 
 ### **Case Info**
-Test Changes
