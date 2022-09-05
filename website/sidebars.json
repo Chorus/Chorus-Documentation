@@ -81,8 +81,6 @@
         "AutismCare/PatientRelatedContacts",
         "AutismCare/PatientMedicalInfo", 
         "AutismCare/PatientCoverage"
-        
-      
           
         ]
       },
@@ -96,9 +94,15 @@
         "AutismCare/CareTeamAssignments", 
         "AutismCare/Encounters", 
         "AutismCare/Calendar"
-        
-      
           
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Schedule Assistance",
+        "ids": [
+        "AutismCare/ScheduleAssistance"  
+      
         ]
       }
     ],
