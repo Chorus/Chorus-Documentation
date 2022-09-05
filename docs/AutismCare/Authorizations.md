@@ -1,0 +1,4 @@
+---
+id: Authorizations
+title: Authorizations
+---

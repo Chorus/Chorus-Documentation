@@ -75,6 +75,29 @@
       },
       {
         "type": "subcategory",
+        "label": "AdminSetup",
+        "ids": [
+        "AutismCare/Account",
+        "Autismcare/GoalBankLibrary",
+        "Autismcare/HealthcareService",
+        "Autismcare/InsurancePlan",
+        "Autismcare/Location",
+        "Autismcare/QualificationDefinition"
+      
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "ClinicalSetup",
+        "ids": [
+        "AutismCare/Authorizations",
+        "Autismcare/CareTeamAssignments",
+        "Autismcare/Contacts",
+        "Autismcare/Coverage"      
+        ]
+      },
+      {
+        "type": "subcategory",
         "label": "Patients",
         "ids": [
         "AutismCare/PatientDemographics", 
@@ -88,12 +111,12 @@
         "type": "subcategory",
         "label": "Practitioners",
         "ids": [
-        "AutismCare/BasicInfo", 
-        "AutismCare/Qualifications",
+        "AutismCare/PractitionerBasicInfo", 
+        "AutismCare/PractitionerQualifications",
         "AutismCare/PractitionerRole",
-        "AutismCare/CareTeamAssignments", 
-        "AutismCare/Encounters", 
-        "AutismCare/Calendar"
+        "AutismCare/PractitionerCareTeamAssignments", 
+        "AutismCare/PractitionerEncounters", 
+        "AutismCare/PractitionerCalendar"
           
         ]
       },

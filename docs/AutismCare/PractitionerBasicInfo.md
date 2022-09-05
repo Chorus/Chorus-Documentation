@@ -1,5 +1,5 @@
 ---
-id: BasicInfo
+id: PractitionerBasicInfo
 title: Basic Info
 ---
 # Overview
