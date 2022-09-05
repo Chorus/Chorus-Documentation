@@ -6,7 +6,7 @@ title: Basic Info
 
 The Practitioner Main Form is divided into different tabs and sections. Every Tab & Section Name reflects the information on that form/section to help you navigate through creating a Practitioner. Some fields are required to save the Practitioner in the system i.e. First Name, while other fields can be added to the system later on. Any time a field is required a red star will display next to the field. See below. 
 
-<img src ="/static/img/requiredFields.jpg" width="500"/>
+<img src ="../website/static/img/requiredFields.jpg" width="500"/>
 
 <br>
 
