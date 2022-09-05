@@ -1,6 +1,6 @@
 {
   "docs": {
-    "Chours Cloud": [
+    "Chorus Cloud": [
       "ChorusCloudOverview"
     ],
     "Remits": [
@@ -81,6 +81,21 @@
         "AutismCare/PatientRelatedContacts",
         "AutismCare/PatientMedicalInfo", 
         "AutismCare/PatientCoverage"
+        
+      
+          
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Practitioners",
+        "ids": [
+        "AutismCare/BasicInfo", 
+        "AutismCare/Qualifications",
+        "AutismCare/PractitionerRole",
+        "AutismCare/CareTeamAssignments", 
+        "AutismCare/Encounters", 
+        "AutismCare/Calendar"
         
       
           
