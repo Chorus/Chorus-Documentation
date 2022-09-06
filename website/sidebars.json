@@ -69,7 +69,9 @@
         "type": "subcategory",
         "label": "Getting Started",
         "ids": [
-        "AutismCare/Sitemap"
+        "AutismCare/Sitemap",
+        "AutismCare/IntakeRep",
+        "AutismCare/Scheduler"
           
         ]
       },
@@ -118,6 +120,16 @@
         "AutismCare/PractitionerEncounters", 
         "AutismCare/PractitionerCalendar"
           
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Encounters",
+        "ids": [
+        "AutismCare/RecurringEncounters",
+        "AutismCare/SingleEncounters",
+        "AutismCare/GeneratingEncounters" 
+      
         ]
       },
       {
