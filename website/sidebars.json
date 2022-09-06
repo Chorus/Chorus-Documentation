@@ -1,6 +1,6 @@
 {
   "docs": {
-    "Chours Cloud": [
+    "Chorus Cloud": [
       "ChorusCloudOverview"
     ],
     "Remits": [
@@ -69,8 +69,33 @@
         "type": "subcategory",
         "label": "Getting Started",
         "ids": [
-        "AutismCare/Sitemap"
+        "AutismCare/Sitemap",
+        "AutismCare/IntakeRep",
+        "AutismCare/Scheduler"
           
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "AdminSetup",
+        "ids": [
+        "AutismCare/Account",
+        "Autismcare/GoalBankLibrary",
+        "Autismcare/HealthcareService",
+        "Autismcare/InsurancePlan",
+        "Autismcare/Location",
+        "Autismcare/QualificationDefinition"
+      
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "ClinicalSetup",
+        "ids": [
+        "AutismCare/Authorizations",
+        "Autismcare/CareTeamAssignments",
+        "Autismcare/Contacts",
+        "Autismcare/Coverage"      
         ]
       },
       {
@@ -81,9 +106,38 @@
         "AutismCare/PatientRelatedContacts",
         "AutismCare/PatientMedicalInfo", 
         "AutismCare/PatientCoverage"
-        
-      
           
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Practitioners",
+        "ids": [
+        "AutismCare/PractitionerBasicInfo", 
+        "AutismCare/PractitionerQualifications",
+        "AutismCare/PractitionerRole",
+        "AutismCare/PractitionerCareTeamAssignments", 
+        "AutismCare/PractitionerEncounters", 
+        "AutismCare/PractitionerCalendar"
+          
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Encounters",
+        "ids": [
+        "AutismCare/RecurringEncounters",
+        "AutismCare/SingleEncounters",
+        "AutismCare/GeneratingEncounters" 
+      
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Schedule Assistance",
+        "ids": [
+        "AutismCare/ScheduleAssistance"  
+      
         ]
       }
     ],
