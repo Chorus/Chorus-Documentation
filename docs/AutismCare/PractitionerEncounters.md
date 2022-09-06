@@ -18,4 +18,4 @@ The sub grids display the Patients, Start Date/Time, Duration, End Date/Time, Re
  
  To create a new Encounter, click on the New Recurring Encounter or New Single Encounter button on the sub grid. This will open up the New Encounter Main Form.
 
- To read more about Encounters, [click here.](../Encounters)
+ To read more about Encounters, [click here.](../AutismCare/SingleEncounters.md)
